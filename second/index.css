@@ -5,8 +5,54 @@ body {
 
 .container-1 {
     width: 100%;
-    height: 50px;
-    border: 5px black;
+    border: 5px solid black;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.box-1 {
+    height: 150px;
+    width: 50px;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+.box-2 {
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    background-color: forestgreen;
+    margin: 0 50px;
+}
+
+.circle-1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: skyblue;
+    display: inline-block;
+}
+
+.container-2 {
+    width: 100%;
+    border: 5px dotted black;
+    padding: 50px;
+    box-sizing: border-box ;
+    margin-top: 25px; 
+}
+
+.container-3 {
+    width: 50%;
+    border: 1px solid white;
+    background-color: white;
+    padding: 100px;
+    box-sizing: border-box ;
+    margin: 25px auto; 
+}
+
+.container-3 h1 {
+    width: 100%;
+    text-align: center;
+    color: navy;
+    letter-spacing: 10px;
 }
